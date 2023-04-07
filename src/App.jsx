@@ -10,3 +10,17 @@ function App() {
 }
 
 export default App
+
+
+/*  
+
+Components: 
+
+EcommerceHeader
+  Cart 
+    CartItem
+ProductPage
+  Button
+  Counter
+
+*/
