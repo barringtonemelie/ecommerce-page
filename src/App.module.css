@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0; 
+    margin: 0; 
+}
+
+.counter {
+    height: 56px;
+    width: 157px;
+    border-radius: 10px;
+
+
+    position: absolute;
+    left: 0%;
+    right: 64.72%;
+    top: 86.85%;
+    bottom: 0%;
+        
+    background: #F6F8FD;
+    border-radius: 10px;
+}
+
+.minus {
+    position: absolute;
+    width: 12px;
+    height: 3.33px;
+    left: 16px;
+    top: 26px;
+    background: #FF7E1B;
+    font-size: 1.5rem;
+}
+
+.plus {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 129px;
+    top: 22px;
+}
+
+.numOfItems {
+    position: absolute;
+    height: 20px;
+    left: 46.82%;
+    right: 46.82%;
+    top: calc(50% - 20px/2 + 5px);
+    
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    text-align: center;    
+    color: #1D2026;
+}
+
+.cartBtn {
+    height: 56px;
+    width: 272px;
+
+    position: absolute;
+    left: 173px;
+    top: 370px;
+
+    background: #FF7E1B;
+    border-radius: 10px;
+
+    border: none; 
+}
+
+.cartBtnWrapper {
+    position: absolute;
+    height: 19px;
+    width: 119px;
+    left: 250px;
+    top: 389px;
+    border-radius: 0px;
+
+}
+
+.cartBtnText {
+    position: absolute;
+    height: 20px;
+    left: 27.73%;
+    right: 0%;
+    top: calc(50% - 20px/2 + 4.5px);
+
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.cartBtnIcon {
+
+    position: absolute;
+    left: 0%;
+    right: 85.33%;
+    top: 5.26%;
+    bottom: 10.53%;
+
+    height: 16px;
+    width: 17.456958770751953px;
+    border-radius: 0px; 
+
+    color: #FFFFFF;
+}
+
