@@ -5,6 +5,47 @@
     margin: 0; 
 }
 
+.productPageWrapper {
+    position: absolute;
+    width: 1015px;
+    height: 565px;
+    left: 213px;
+    top: 203px;
+    border: 1px solid red; 
+}
+
+.productImages {
+
+}
+
+.mainProductImg {
+
+}
+
+.imgSliderWrapper {
+
+}
+
+.imgSliderOne {
+
+}
+
+.imgSliderTwo {
+
+}
+
+.imgSliderThree {
+
+}
+
+.imgSliderFour {
+
+}
+
+.productPresentation {
+
+}
+
 .counter {
     height: 56px;
     width: 157px;
@@ -31,6 +72,10 @@
     font-size: 1.5rem;
 }
 
+.minus:hover {
+    cursor: pointer;
+}
+
 .plus {
     position: absolute;
     width: 12px;
@@ -38,6 +83,11 @@
     left: 129px;
     top: 22px;
 }
+
+.plus:hover {
+    cursor: pointer;
+}
+
 
 .numOfItems {
     position: absolute;
