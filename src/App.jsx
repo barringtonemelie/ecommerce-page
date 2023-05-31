@@ -7,9 +7,9 @@ import styles from './App.module.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.app}>
       <EcommerceHeader/> 
-      <ProductPage/>
+      <ProductPage isActive={true} />
     </div>
   )
 }
@@ -22,6 +22,7 @@ export default App
 Components: 
 
 EcommerceHeader
+  Nav
   Cart 
     CartItem
 ProductPage

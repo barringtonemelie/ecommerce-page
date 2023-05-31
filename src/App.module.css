@@ -5,14 +5,84 @@
     margin: 0; 
 }
 
+.app {
+    width: 1440px; 
+    height: 900px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    font-family: 'Kumbh Sans';
+    width: 1111px;
+    height: 62px;
+    margin: 29px 164px 0px 164px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #E4E9F2;
+}
+
+.pageTitle {
+    margin: 12px 48.5px 16px 0px; 
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 26px;
+    width: 137.5px;
+}
+
+.navbar {
+    width: 397px;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    margin-right: 410px; 
+    color: #69707D;
+}
+
+.menuItem {
+    padding-bottom: 41px; 
+}
+
+.menuItem:hover {
+    color: #1D2026;
+    border-bottom: 4px solid #FF7E1B;
+    cursor: pointer;
+}
+
+.cartIcon {
+    color: #69707D;
+    width: 21.82px;
+    height: 20px;
+}
+
+
+.profileImg {
+    width: 50px; 
+    height: 50px; 
+    margin-left: 46px; 
+    border-radius: 50%;
+}
+
+.profileImg:hover {
+    cursor: pointer;
+    border: 2px solid #FF7E1B;
+} 
+
 .productPageWrapper {
-    position: absolute;
+    margin-top: 90px; 
     width: 1015px;
     height: 565px;
-    left: 213px;
-    top: 203px;
     border: 1px solid red; 
 }
+
+
 
 .productImages {
 
@@ -23,23 +93,29 @@
 }
 
 .imgSliderWrapper {
-
+    width: 445px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
 }
 
-.imgSliderOne {
-
+.imgSlider {
+    width: 88px;
+    height: 88px;
 }
 
-.imgSliderTwo {
-
+.imgSlider:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
-.imgSliderThree {
-
-}
-
-.imgSliderFour {
-
+.imgSliderActive {
+    opacity: 0.25; 
+    width: 88px;
+    height: 88px;
+    border: 2px solid #FF7E1B;
+    border-radius: 10px;
 }
 
 .productPresentation {
@@ -50,24 +126,14 @@
     height: 56px;
     width: 157px;
     border-radius: 10px;
-
-
-    position: absolute;
-    left: 0%;
-    right: 64.72%;
-    top: 86.85%;
-    bottom: 0%;
         
     background: #F6F8FD;
     border-radius: 10px;
 }
 
 .minus {
-    position: absolute;
     width: 12px;
     height: 3.33px;
-    left: 16px;
-    top: 26px;
     background: #FF7E1B;
     font-size: 1.5rem;
 }
@@ -77,11 +143,8 @@
 }
 
 .plus {
-    position: absolute;
     width: 12px;
     height: 12px;
-    left: 129px;
-    top: 22px;
 }
 
 .plus:hover {
@@ -90,12 +153,7 @@
 
 
 .numOfItems {
-    position: absolute;
     height: 20px;
-    left: 46.82%;
-    right: 46.82%;
-    top: calc(50% - 20px/2 + 5px);
-    
     font-family: 'Kumbh Sans';
     font-style: normal;
     font-weight: 700;
@@ -111,10 +169,6 @@
     height: 56px;
     width: 272px;
 
-    position: absolute;
-    left: 173px;
-    top: 370px;
-
     background: #FF7E1B;
     border-radius: 10px;
 
@@ -122,21 +176,14 @@
 }
 
 .cartBtnWrapper {
-    position: absolute;
     height: 19px;
     width: 119px;
-    left: 250px;
-    top: 389px;
     border-radius: 0px;
 
 }
 
 .cartBtnText {
-    position: absolute;
     height: 20px;
-    left: 27.73%;
-    right: 0%;
-    top: calc(50% - 20px/2 + 4.5px);
 
     font-family: 'Kumbh Sans';
     font-style: normal;
@@ -149,12 +196,6 @@
 }
 
 .cartBtnIcon {
-
-    position: absolute;
-    left: 0%;
-    right: 85.33%;
-    top: 5.26%;
-    bottom: 10.53%;
 
     height: 16px;
     width: 17.456958770751953px;
