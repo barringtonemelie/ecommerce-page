@@ -31,7 +31,7 @@ export default function CartItem({ cart, cartOpen, setCart }) {
                         <p>{cart[0].name}</p>
                         <p>${cart[0].price} x {totalItems} <b className={styles.totalPrice}>${totalPrice}</b></p>
                     </div>
-                    <img className={styles.trashbin} src="./src/assets/trashbin.svg" alt="Delete item" onClick={removeItem} />
+                    <img className={styles.trashbin} src="./src/assets/images/trashbin.svg" alt="Delete item" onClick={removeItem} />
                     <button>Checkout</button>
                     
                 </div>

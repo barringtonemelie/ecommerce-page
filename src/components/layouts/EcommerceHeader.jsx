@@ -14,7 +14,7 @@ export default function EcommerceHeader({ cart, setCart }) {
                 setCart={setCart}
                 cart={cart}
             />
-            <img src="./src/assets/profile.png" alt="Profile picture" className={styles.profileImg} />
+            <img src="./src/assets/images/profile.png" alt="Profile picture" className={styles.profileImg} />
         </header>
     )
 }

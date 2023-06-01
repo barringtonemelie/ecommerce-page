@@ -11,7 +11,7 @@ export default function Cart({ cart, setCart }) {
             onMouseEnter={() => setCartOpen(true)}
             onMouseLeave={() => setCartOpen(false)}            
         >
-            <img src="./src/assets/cart-shape-grey.svg" alt="Cart icon" styles={styles.cartIcon} />
+            <img src="./src/assets/images/cart-shape-grey.svg" alt="Cart icon" styles={styles.cartIcon} />
             
             {cart.length > 0 ? <span className={styles.cartNum}>{cart.length}</span> : null}
             

@@ -9,7 +9,7 @@ export default function Button({ setCart, item }) {
     return (
         <button className={styles.cartBtn} onClick={handleClick}>
             <div className={styles.cartBtnWrapper}>
-                <img src="./src/assets/cart-shape.svg" alt="Cart icon" className={styles.cartBtnIcon} />
+                <img src="./src/assets/images/cart-shape.svg" alt="Cart icon" className={styles.cartBtnIcon} />
                 <p className={styles.cartBtnText}>Add to cart</p>
             </div>
         </button>

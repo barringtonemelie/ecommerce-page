@@ -11,10 +11,10 @@ export default function ProductPage({ setCart, cart }) {
         sale: "50%",
         oldPrice: 250,
         imgUrls: [
-            "./src/assets/sneakers0.png",
-            "./src/assets/sneakers1.png",
-            "./src/assets/sneakers2.png",
-            "./src/assets/sneakers3.png"
+            "./src/assets/images/sneakers0.png",
+            "./src/assets/images/sneakers1.png",
+            "./src/assets/images/sneakers2.png",
+            "./src/assets/images/sneakers3.png"
         ],
         alt: "A pair of sneakers",
         description: "These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer."
@@ -25,7 +25,7 @@ export default function ProductPage({ setCart, cart }) {
 
         <section className={styles.productPageWrapper}>
             <section>
-                <img src="./src/assets/sneakers0.png" alt="A pair of sneakers" />
+                <img src={sneakers.imgUrls[0]} alt={sneakers.alt} />
 
                 <div className={styles.imgSliderWrapper}>
                     <SliderImg

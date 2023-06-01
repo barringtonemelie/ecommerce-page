@@ -12,9 +12,9 @@ export default function Counter({ cart, setCart, item }) {
 
     return (
         <div className={styles.counter}>
-            <img className={styles.minus} src="./src/assets/minus.svg" onClick={removeItem} />
+            <img className={styles.minus} src="./src/assets/images/minus.svg" onClick={removeItem} />
             <span className={styles.numOfItems}>{cart.length}</span>
-            <img className={styles.plus} src="./src/assets/plus.svg" onClick={addItem} />
+            <img className={styles.plus} src="./src/assets/images/plus.svg" onClick={addItem} />
         </div>
     )
 }
